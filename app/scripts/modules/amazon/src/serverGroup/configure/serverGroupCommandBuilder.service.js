@@ -70,6 +70,7 @@ module.exports = angular.module('spinnaker.amazon.serverGroupCommandBuilder.serv
             keyPair: keyPair,
             suspendedProcesses: [],
             securityGroups: [],
+            spotPrice: null,
             tags: {},
             useAmiBlockDeviceMappings: useAmiBlockDeviceMappings,
             copySourceCustomBlockDeviceMappings: !useAmiBlockDeviceMappings,
