@@ -210,6 +210,7 @@ module.exports = angular.module('spinnaker.amazon.serverGroupCommandBuilder.serv
           targetHealthyDeployPercentage: 100,
           availabilityZones: zones,
           selectedProvider: 'aws',
+          spotPrice: null,
           source: {
             account: serverGroup.account,
             region: serverGroup.region,
