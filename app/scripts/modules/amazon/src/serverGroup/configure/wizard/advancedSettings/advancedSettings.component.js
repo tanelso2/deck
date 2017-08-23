@@ -24,6 +24,7 @@ module.exports = angular
       this.spotPriceChanged = () => {
         // AWS returns an error if spot price is empty string
         // so let's turn it into null
+        console.log("Inside of the spotPriceChanged function");
         if (this.command.spotPrice === '') {
           this.command.spotPrice = null;
         }
